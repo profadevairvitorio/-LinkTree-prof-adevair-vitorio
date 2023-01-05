@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lobster&family=Montserrat:wght@300&display=swap');
+
+:root {
+    --padrao: #0d6efd;
+    --nome: 'Inspiration', cursive;
+    --corpo: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 350px;
+    height: 150px;
+    background: linear-gradient(0, #120c56, #000000);
+} 
+
+.nome {
+    font-family: var(--nome);
+    font-size: 4.5rem;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-top {
+    width: 95vw;
+    height: 45vh;
+    background-color: var(--padrao);
+    border-radius: 0px 0px 35px 35px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px #0d6dfdb3;
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(189, 187, 187);
+    border-radius: 50%;
+}
+
+
+section, img {
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about {
+    font-family: var(--corpo);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link {
+    background-color: #0d6efd;
+    height: 10vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--corpo);
+    box-shadow: 5px 5px 5px #0d6dfdb3;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box-link:hover {
+    border: 1px solid var(--padrao);
+    background-color: white;
+    color: var(--padrao);
+}
+
